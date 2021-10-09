@@ -1,7 +1,8 @@
 /*
-Purple: #9B4FB9
+Purple: #AD5ACE
 Peach: #FF7166
-Blue: #586EBC
+Blue: #2B52E0
+Grey: #111F1A
 */
 
 body, html {
@@ -10,8 +11,14 @@ body, html {
     margin: 0px, 0px;
 }
 
+p {
+    text-indent: 50px;
+    line-height: 1.8;
+}
+
 div.enclosure {
-    margin-left: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -19,7 +26,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .purple{
-    color: #9B4FB9;
+    color: #ad5ace;
 }
 
 .peach {
@@ -27,14 +34,5 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .blue{
-    color: #586EBC;
+    color: #2b52e0;
 }
-/*
-h1:hover {
-    color: white;
-}
-
-h1:active {
-    color: red;
-}
-*/
