@@ -17,6 +17,7 @@ p, li, ul, ol {
     font-size: 1.5em;
     font-family: "Trebuchet MS", sans-serif;
     text-align: center;
+    color: white;
 }
 
 ul, ol {
@@ -26,6 +27,7 @@ ul, ol {
 div.enclosure {
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 10%;
 }
 
 div.fuckYouImages {
@@ -33,12 +35,17 @@ div.fuckYouImages {
     overflow: hidden;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6 {
     font-family: "Trebuchet MS", sans-serif;
     text-align: center;
+    color: white;
 }
 h1 {
     font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
 }
 
 a {
