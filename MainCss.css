@@ -28,19 +28,14 @@ div.enclosure {
     margin-right: 10%;
 }
 
-<<<<<<< Updated upstream
-h1, h2, h3, h4, h5, h6 {
-=======
 div.fuckYouImages {
     border-bottom: solid 1px silver; 
     overflow: hidden;
 }
 
 h1, h2, h3, h4, h5, h6, p {
->>>>>>> Stashed changes
     font-family: "Trebuchet MS", sans-serif;
     text-align: center;
-    class: purple;
 }
 h1 {
     font-size: 4em;
