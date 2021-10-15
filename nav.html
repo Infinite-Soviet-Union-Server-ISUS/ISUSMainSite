@@ -17,10 +17,11 @@
     }
 
 
-    /* Mental Illness in question */
+    /* Mental Illness that is no longer in question */
     .navbar {
+      width: 100%;
       overflow: hidden;
-      /*position: fixed;*/
+      position: fixed;
       top: 0;
       background-color: #202755;
       box-shadow: 0px 0px 5px #454B6F;
@@ -66,12 +67,12 @@
 
     .dropdown-content {
       display: none;
-      position: absolute;
+      position: fixed;
       background-color: #f9f9f9;
       min-width: 100px;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
-      float: center;
+      float: right;
     }
 
     .dropdown-content a {
@@ -80,7 +81,7 @@
       padding: 12px 16px;
       text-decoration: none;
       display: block;
-      text-align: center;
+      text-align: left;
     }
 
     .dropdown-content a:hover {
@@ -105,11 +106,6 @@
 
 
 <div class="navbar">
-  <!--<a href="#home">Home</a>
-  <a href="#news">News</a>
-  -->
-  <!-- First Drop-->
-
   <!--
   nav bar:
     ⁃    Servers 
@@ -128,7 +124,7 @@
 -->
 
 
-  <a href="#news">About Us</a>
+  <a href="/aboutUs.html">About Us</a>
   <div class="dropdown">
     <button class="dropbtn">Discord 
     <!--
@@ -139,8 +135,8 @@
       <!--<i class="fa fa-caret-down"></i>--> 
     </button>
     <div class="dropdown-content">
-      <a href="https://discord.gg/Zm5kNxahNY"> The Soviet Union </a>
-      <a href="https://discord.gg/3F5MbGAQxC"> Infinity Server </a>
+      <a href="https://discord.gg/Zm5kNxahNY" target="_blank"> The Soviet Union </a>
+      <a href="https://discord.gg/3F5MbGAQxC" target="_blank"> Infinity Server </a>
     </div>
   </div> 
   <div class="dropdown">
@@ -149,7 +145,7 @@
     </button>
     <div class="dropdown-content">
       <a href="#"> Batch Scripts </a>
-      <a href="#"> Hikouki </a>
+      <a href="/SubPages/Hikouki.html"> Hikouki </a>
       <a href="#"> Games </a>
     </div>
   </div> 
@@ -158,11 +154,10 @@
       <!--<i class="fa fa-caret-down"></i>-->
     </button>
     <div class="dropdown-content">
-      <a href="#"> Vanilla Minecraft </a>
-      <a href="#"> Modded Minecraft </a>
-      <a href="#"> Vanilla Terraria </a>
-      <a href="#"> Modded Terraria </a>
+      <a href="/SubPages/InfinityMinecraft.html"> Vanilla Minecraft </a>
+      <a href="/SubPages/InfinityMinecraftMods.html"> Modded Minecraft </a>
+      <a href="/SubPages/SovietUnionTerraria.html"> Vanilla Terraria </a>
+      <a href="/SubPages/InfinityTerrariaMods.html"> Modded Terraria </a>
     </div>
   </div> 
 </div>
-<!--</html>-->
