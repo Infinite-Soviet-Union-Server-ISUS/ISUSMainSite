@@ -10,21 +10,21 @@
             "name": "Launch Firefox",
             "request": "launch",
             "type": "firefox",
-            "file": "aboutUs.html",
+            "file": "/Users/calvinbunker-admin/Documents/GitHub/ISUSMainSite/index.html",
             "runtimeArgs": ["--disable-web-security"]
         },
         {
             "request": "launch",
             "type":"pwa-chrome",
             "name": "Launch Chrome",
-            "file": "aboutUs.html",
+            "file": "index.html",
             "runtimeArgs": ["--disable-web-security"]
         },
         {
             "name": "Launch Edge",
             "request": "launch",
             "type": "msedge",
-            "file": "aboutUs.html",
+            "file": "index.html",
             "runtimeArgs": ["--disable-web-security"]
         }
     ]
