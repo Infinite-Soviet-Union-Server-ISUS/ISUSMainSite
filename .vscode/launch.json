@@ -1,0 +1,31 @@
+/* "c:\\Users\\Logan\\Documents\\GitHub\\ISUSMainSite\\aboutUs.html"*/
+
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Firefox",
+            "request": "launch",
+            "type": "firefox",
+            "file": "aboutUs.html",
+            "runtimeArgs": ["--disable-web-security"]
+        },
+        {
+            "request": "launch",
+            "type":"pwa-chrome",
+            "name": "Launch Chrome",
+            "file": "aboutUs.html",
+            "runtimeArgs": ["--disable-web-security"]
+        },
+        {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "msedge",
+            "file": "aboutUs.html",
+            "runtimeArgs": ["--disable-web-security"]
+        }
+    ]
+}
