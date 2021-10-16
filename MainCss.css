@@ -7,8 +7,9 @@ Grey: #111F1A
 
 body, html {
     background-color: #13141a;
-    padding: 0px, 0px;
-    margin: 0px, 0px;
+    padding: 0;
+    padding-top: 20px;
+    margin: 0;
 }
 
 p, li, ul, ol {
@@ -20,59 +21,29 @@ p, li, ul, ol {
     color: white;
 }
 
-hr {
-    border-style: double;
-    color: white;
-    width: 40%;
-}
-
-ul, ol {
-    list-style-position: inside;
-}
-
-div.enclosure {
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-/*This is the header div on the Main Page*/
-div.header {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-div.fuckYouImages {
-    border-bottom: solid 1px silver; 
-    overflow: hidden;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: "Trebuchet MS", sans-serif;
-    text-align: center;
     color: white;
-}
-
-h1 {
-    font-size: 4em;
-}
-
-h2 {
-    font-size: 3em;
 }
 
 a {
-   text-decoration: none;
+    text-decoration: none;
+ }
+ 
+div.enclosure {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
 }
-
-.purple{
-    color: #ad5ace;
-}
-
-.peach {
-    color: #FF7166;
-}
-
-.blue{
-    color: #2b52e0;
-}
+ 
+ .purple{
+     color: #ad5ace;
+ }
+ 
+ .peach {
+     color: #FF7166;
+ }
+ 
+ .blue{
+     color: #2b52e0;
+ }
