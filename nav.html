@@ -2,7 +2,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="MushroomEnder">
   <!--<link rel="stylesheet"    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
-  <link rel="stylesheet" href="MainCss.css">
+  <link rel="stylesheet" href="/MainCss.css">
   <style>
     /*
       Purple: #AD5ACE
@@ -10,11 +10,11 @@
       Blue: #2B52E0
       Grey: #111F1A
     */
-    body {
+    /*body {
       font-family: Arial, Helvetica, sans-serif;
       padding: 0;
       margin: 0;
-    }
+    }*/
 
 
     /* Mental Illness that is no longer in question */
@@ -27,22 +27,38 @@
       box-shadow: 0px 0px 5px #454B6F;
     }
 
-    .navbar a {
+    a.navbarLink {
       float: right;
-      font-size: 16px;
+      font-size: 25px;
       color: white;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
+      vertical-align: middle;
+    }
+
+    .cornerLogo {
+      height: 50px; 
+      width: auto; 
+      padding: 5px;
+      vertical-align: middle;
+      float: left;
+      font-size: 25px;
+      color: white;
+      text-align: center;
+      /*padding: 14px 16px;*/
+      text-decoration: none;
+      vertical-align: middle;
     }
 
     .dropdown {
+      vertical-align: middle;
       float: right;
       overflow: hidden;
     }
 
     .dropdown .dropbtn {
-      font-size: 16px;  
+      font-size: 25px;  
       border: none;
       outline: none;
       color: white;
@@ -50,6 +66,7 @@
       background-color: inherit;
       font-family: inherit;
       margin: 0;
+      vertical-align: middle;
     }
 
     .navbar a:hover, .dropdown:hover .dropbtn {
@@ -123,8 +140,10 @@
     ⁃    About Us✅
 -->
 
-
-  <a href="/aboutUs.html">About Us</a>
+  <a class="cornerLogo" href=href="/">
+    <img src="/images/SovinityLogoFinal.png" alt="Sovinity logo... click to go to the home page" class="cornerLogo">
+  </a>
+  <a href="/aboutUs.html" class="navbarLink">About Us</a>
   <div class="dropdown">
     <button class="dropbtn">Discord 
     <!--
