@@ -1,0 +1,28 @@
+/*
+Purple: #AD5ACE
+Peach: #FF7166
+Blue: #2B52E0
+Grey: #111F1A
+*/
+
+
+ul, ol {
+    list-style-position: inside;
+}
+
+div.fuckYouImages {
+    border-bottom: solid 1px silver; 
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+}
