@@ -36,6 +36,11 @@ div.enclosure {
     margin-bottom: 10%;
 }
  
+div.fuckYouImages {
+    border-bottom: solid 1px silver; 
+    overflow: hidden;
+}
+
  .purple{
      color: #ad5ace;
  }
