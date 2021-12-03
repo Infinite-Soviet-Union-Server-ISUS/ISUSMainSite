@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <!--
+      Purple: #AD5ACE
+      Peach: #FF7166
+      Blue: #2B52E0
+      Grey: #111F1A
+    -->
+    <title> About Us - Sovinity </title>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="About us page">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="CalBunker">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <style>
+      img.pfp {
+        max-width: 25%;
+        width: auto;
+        height: auto;
+        padding: 15px;
+        border-radius: 50px;
+      }
+      ul, ol {
+     list-style-position: inside;
+      }
+      h1, h2, h3, h4, h5, h6 {
+     text-align: center;
+      }
+      h1 {
+      font-size: 4em;
+      }
+      h2 {
+      font-size: 3em;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+
+    </div>
+
+    <script>
+    $(function(){
+    $("#nav-placeholder").load("nav.html");
+    });
+    </script>
+    <!--end of Navigation bar-->
+
+    <div class="enclosure">
+    <h1 class="purple">  About Us </h1>
+    <br>
+    <hr>
+    <hr>
+    <br>
+    <div class="fuckYouImages"><!--Fair-->
+    <img src="images/calvinPFP.jpg" class="pfp" style="float:left;" alt="CalBunker's pfp">  
+    <p style="color:white;"> CalBunker is a beginner programmer with minor experience in HTML and CSS. He mainly works on Discord servers and management, but is learning HTML, CSS, and Python. His contributions to this project site are the Discord and Terraria servers, much of the programming and management of the site itself, quality control, and most of the writing of the site. (including this page) </p>
+    </div>
+    <hr>
+   <div class="fuckYouImages">
+    <img src="images/loganPFP.png" class="pfp" style="float:right;" alt="Mushroom Ender's pfp">  
+    <p style="color:white;"> MushroomEnder has major experience in python, html, css, node javascript, lua, c++, and batch. He also creates games in Unreal Engine and is quite skilled with blender. His primary contributions to this site are games, page programming, Hikouki, and the background texture. </p>
+    </div>
+    <hr>
+    <div class="fuckYouImages">
+    <img src="images/jacobPFP.png" class="pfp" style="float:left;" alt="JakeHasSkill's pfp">  
+    <p style="color:white;"> JakeHasSkill is our primary server manager. He owns, runs, and maintains the computer that the Terraria and Minecraft servers and the website itself run on, as well as contributes to the coding of the site and games. </p>
+    </div>
+    <hr>
+    <div class="fuckYouImages">
+    <img src="images/thanosPFP.png" class="pfp" style="float:right;" alt="ThanosIsUgly's pfp">
+    <p style="color:white;"> ThanosIsUgly makes some different kinds of batch files, mainly used for entertainment and screwing with people. He has experience with Discord servers and is learning multiple coding languages.  He also has a <a href="https://www.youtube.com/channel/UCrzuKJom1jYoaq8t16LP4BQ" class="purple"> YouTube channel. </a> </p>
+    <br>
+    </div>
+    <hr>
+    <br>
+  </div>
+  </body>
+</html>
